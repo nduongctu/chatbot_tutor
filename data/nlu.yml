@@ -1,0 +1,144 @@
+version: "3.1"
+
+nlu:
+- intent: chao_hoi
+  examples: |
+    - hey
+    - hello
+    - hi
+    - xin chào
+    - chào
+    - chào bạn
+    - bạn ơi
+    - anh ơi
+    - em ơi
+    - chị ơi
+    - cin chào
+
+- intent: tam_biet
+  examples: |
+    - tạm biệt
+    - hẹn gặp lại
+    - bye
+    - bai
+
+- intent: hoi_ten
+  examples: |
+    - bạn là gì ?
+    - bạn là ai ?
+    - bạn tên là gì ?
+    - chatbot gì ?
+    - bạn tên gì ?
+    - xin lỗi, tôi không biết tên bạn, bạn có thể cho mình biết không?
+    - cho mình xin tên của bạn
+    - tôi muốn biết bạn tên gì
+    - xin chào, tên bạn là gì 
+    - bạn có thể giới thiệu về bản thân không
+
+- intent: chuc_nang
+  examples: |
+    - bạn làm được gì ? 
+    - bạn có thể làm gì ? 
+    - bạn có thể giúp gì cho tôi ?
+    - chức năng của bạn là gì ? 
+    - chức năng chính của bạn là gì ?
+    - bạn hỗ trợ gì ?
+    - chức năng
+    - khả năng
+    - bạn có khả năng làm gì ?
+
+- intent: gioi_thieu
+  examples: |
+    - mã học phần 
+    - tên học phần 
+    - môn tiên quyết
+    - điều kiện tiên quyết
+    - số tín chỉ
+    - số tiết
+    - thông tin môn học
+    - đề cương môn học
+
+- intent: muc_tieu
+  examples: |
+    - mục tiêu
+    - mục tiêu học phần
+    - kiến thúc đạt được
+    - kĩ năng đạt được 
+    - mục đích
+    - yêu cầu sau khi học  
+    - mục tiêu môn học
+- intent: code_dfa
+  examples: |
+    - bạn có thể code [DFA] không?
+    - code [DFA]
+    - hướng dẫn hàm [DFA] 
+    - hàm [DFA]
+    - code ôtômát hữu hạn đơn định
+- intent: out_of_scope
+  examples: |
+    - Angular
+    - Đạo Hàm
+    - int main()
+    - bạn có thể hỗ trợ dùng VScode được kkhông
+    - Video hướng dẫn python
+    - mình muốn biết về python
+    - Sort array
+    - công nghệ thông tin là gì
+    - test
+    - ngoài tin học lý thuýet ra bạn còn biết về môn nào nữa không ?
+    - trứng có trước hay gà có trước
+    - toán rời rạc là gì
+    - Cho mình thêm vài câu châm ngôn đi
+    - printf_s
+    - bla bla 
+    - làm sao để qua môn
+    - Rớt môn rồi làm sao bây giờ
+    - cấu trúc rời rạc là gì 
+    - python
+    - Học gì để đạt điểm cao nhập môn lập trình?
+    - Làm sao để lấy ra dãy tăng dần trong mảng
+    - Bạn có biết tìm lỗi trong code không ?
+    - nó chạy như thế noà
+    - hmmm is this a bug ??
+    - Ăn tết chưa ạ
+    - Câu ăn tết ạ
+    - Tìm kiếm nhị phân
+    - Câu châm ngôn hay
+    - Kĩ thuật cắm cờ
+    - Hàm conio làm gì
+    - Kế thừa  
+    - Bot có biết dạng đề thi học kì không?
+    - đề thi
+    - giải bài tập
+    - bài tập
+    - Thế biết tên mình không?
+    - Machine learning là gì
+    - Làm sao để master lập trình vậy
+    - thích coi phim không    
+    - deep learning là cái gì
+    - machine learning cái gì vậy
+    - dynamic programming
+    - toán rời rạc
+    - toán rời rạc là gì
+    - cấu trúc rời rạc là gì
+    - lập trình c
+    - lập trình hướng đối tượng
+- intent: lt_what_asking
+  examples: |
+    
+    - [dfa](lt_content:dfa) là gì
+    - lý thuyết về [dfa](lt_content:dfa)
+    - thông tin về [dfa](lt_content:dfa)
+    
+    - [nfa](lt_content:nfa) là gì
+    - lý thuyết về [nfa](lt_content:nfa)
+    - thông tin về [nfa](lt_content:nfa)
+
+- synonym: dfa
+  examples: |
+    - automat hữu hạn đơn định
+    - otomat hữu hạn đơn định
+    - ôtômát hữ hạn đơn định
+    - DFA
+    - hữu hạn đơn định
+    - huu han don dinh

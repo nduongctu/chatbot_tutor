@@ -1,0 +1,104 @@
+version: "3.1"
+
+intents:
+  - chao_hoi
+  - tam_biet
+  - hoi_ten
+  - chuc_nang
+  - gioi_thieu
+  - muc_tieu
+  - code_dfa
+  - out_of_scope
+  - lt_what_asking
+
+entities:
+  - lt_content
+
+slots:
+  lt_content:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: lt_content
+        value: lt_content
+
+responses:
+  utter_chaohoi:
+  - text: "Xin chào bạn! Tôi có thể giúp gì cho bạn ?"
+
+  utter_tambiet:
+  - text: "Hẹn gặp lại!"
+
+  utter_hoiten:
+  - text: "Tôi là Z, là một chatbot trợ giảng môn Tin Học Lý Thuyết"
+
+  utter_chucnang:
+  - text: "Tôi có thể trả lời các câu hỏi lý thuyết, cung cấp thông tin, hỗ trợ giải một số bài thực hành liên quan đến môn học."
+
+  utter_gioithieu:
+  - text: "- Môn Tin học lý thuyết bao gồm việc nghiên cứu hai lý thuyết cơ sở trong lĩnh vực khoa học máy tính - đó là lý thuyết về ngôn ngữ hình thức và lý thuyết về ôtômát.
+           _- Mã số học phần: CT121. 
+           _- Số tín chỉ học phần: 3 tín chỉ. 
+           _- Số tiết học phần: 30 tiết lý thuyết, 30 tiết thực hành và 75 tiết tự học.
+           _- Điều kiện tiên quyết : CT101- Lập trình căn bản."
+
+  utter_muctieu:
+  - text: "- Cung cấp kiến thức về: automata hữu hạn, nhận biết ngôn ngữ chính quy bởi các automata hữu hạn; ngôn ngữ phi ngữ cảnh, pushdown automata và nhận biết ngôn ngữ phi ngữ cảnh bởi các pushdown automata, máy Turing, kiến trúc máy tính Von Neumann, khả năng tính toán của máy tính dựa trên các mô hình này.
+           _- Khả năng phân tích, kỹ năng lập trình và vận dụng kỹ thuật phù hợp để giải quyết các vấn đề liên quan đến ngôn ngữ.
+           _- Kiến thức đạt được : 
+              _+ Phân loại được automata hữu hạn và nhận biết ngôn ngữ chính quy bởi các automata hữu hạn.
+              _+ Trình bày được ngôn ngữ phi ngữ cảnh, pushdown automata và nhận biết ngôn ngữ phi ngữ cảnh bởi các pushdown automata. 
+              _+ Hiểu máy Turing, kiến trúc máy tính Von Neumann, khả năng tính toán của máy tính dựa trên các mô hình này.
+              _+ Vận dụng kiến thức về automata, biểu thức chính quy, văn phạm chính quy, PDA, TM để cài đặt và giải quyết các bài toán thực tế. "
+
+  utter_code_dfa:
+    - text: |
+        Đây là code hàm DFA:
+
+        ```python
+        class DFA(object):
+            def __init__(self, states, alphabet, transition_function, start_state, accept_states, current_state):
+                self.states = states
+                self.alphabet = alphabet
+                self.transition_function = transition_function
+                self.start_state = start_state
+                self.accept_states = accept_states
+                self.current_state = start_state
+                return
+
+            def transition_to_state_with_input(self, input_value):
+                if ((self.current_state, input_value) not in self.transition_function.keys()):
+                    self.current_state = None
+                    return
+                self.current_state = self.transition_function[(self.current_state, input_value)]
+                return
+
+            def in_accept_state(self):
+                return self.current_state in accept_states
+
+            def go_to_initial_state(self):
+                self.current_state = self.start_state
+                return
+
+            def run_with_input_list(self, input_list):
+                self.go_to_initial_state()
+                for inp in input_list:
+                    self.transition_to_state_with_input(inp)
+                    continue
+                return self.in_accept_state()
+        ```
+  utter_reply_out_of_scope:
+    - text: "Xin lỗi, câu hỏi của bạn nằm ngoài lĩnh vực của mình, vui lòng hỏi lại!"
+  utter_lt_not_available:
+    - text: "Xin lỗi, hiện tại chúng tôi không có thông tin về {lt_content}."
+
+actions:
+  - utter_chaohoi
+  - utter_tambiet
+  - utter_hoiten
+  - utter_chucnang
+  - utter_gioithieu
+  - utter_muctieu
+  - utter_code_dfa
+  - utter_reply_out_of_scope
+  - action_traloilt

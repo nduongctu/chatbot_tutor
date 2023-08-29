@@ -1,0 +1,45 @@
+version: "3.1"
+
+rules:
+
+- rule: tam biet
+  steps:
+  - intent: tam_biet
+  - action: utter_tambiet
+
+
+- rule: code dfa
+  steps:
+  - intent: code_dfa
+  - action: utter_code_dfa
+
+
+- rule: chao hoi
+  steps:
+    - intent: chao_hoi
+    - action: utter_chaohoi
+
+- rule: tra loi ten
+  steps:
+  - intent: hoi_ten
+  - action: utter_hoiten
+
+- rule: gioi thieu
+  steps:
+  - intent: gioi_thieu
+  - action: utter_gioithieu
+
+- rule: muc tieu
+  steps:
+  - intent: muc_tieu
+  - action: utter_muctieu
+
+- rule : out of scope
+  steps:
+    - intent: out_of_scope
+    - action: utter_reply_out_of_scope
+
+- rule : lt_what
+  steps:
+    - intent: lt_what_asking
+    - action: action_traloilt

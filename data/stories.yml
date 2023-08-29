@@ -1,0 +1,120 @@
+version: "3.1"
+
+stories:
+- story: traloi
+  steps:
+  - intent: lt_what_asking
+  - action: action_traloilt
+
+- story: chao-ten
+  steps:
+  - intent: chao_hoi
+  - action: utter_chaohoi
+  - intent: hoi_ten
+  - action: utter_hoiten
+
+- story: chao-ten-chucnang
+  steps:
+  - intent: chao_hoi
+  - action: utter_chaohoi
+  - intent: hoi_ten
+  - action: utter_hoiten
+  - intent: chuc_nang
+  - action: utter_chucnang
+
+- story: chao-ten-chucnang
+  steps:
+  - intent: chao_hoi
+  - action: utter_chaohoi
+  - intent: hoi_ten
+  - action: utter_hoiten
+  - intent: chuc_nang
+  - action: utter_chucnang
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+
+- story: chao-out-ten-chucnang-gioithieu
+  steps:
+  - intent: chao_hoi
+  - action: utter_chaohoi
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+  - intent: hoi_ten
+  - action: utter_hoiten
+  - intent: chuc_nang
+  - action: utter_chucnang
+  - intent: gioi_thieu
+  - action: utter_gioithieu
+
+- story: chao-lt-out-ten-chucnang-gioithieu
+  steps:
+  - intent: chao_hoi
+  - action: utter_chaohoi
+  - intent: lt_what_asking
+  - action: action_traloilt
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+  - intent: hoi_ten
+  - action: utter_hoiten
+  - intent: chuc_nang
+  - action: utter_chucnang
+  - intent: gioi_thieu
+  - action: utter_gioithieu
+
+- story: chao-ten-chucnang-out-lt-gioithieu-muctieu
+  steps:
+  - intent: chao_hoi
+  - action: utter_chaohoi
+  - intent: hoi_ten
+  - action: utter_hoiten
+  - intent: chuc_nang
+  - action: utter_chucnang
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+  - intent: lt_what_asking
+  - action: action_traloilt
+  - intent: gioi_thieu
+  - action: utter_gioithieu
+  - intent: muc_tieu
+  - action: utter_muctieu
+
+- story: chao-ten-chucnang-gioithieu-muctieu-lt-tambiet-out
+  steps:
+  - intent: chao_hoi
+  - action: utter_chaohoi
+  - intent: hoi_ten
+  - action: utter_hoiten
+  - intent: chuc_nang
+  - action: utter_chucnang
+  - intent: gioi_thieu
+  - action: utter_gioithieu
+  - intent: muc_tieu
+  - action: utter_muctieu
+  - intent: lt_what_asking
+  - action: action_traloilt
+  - intent: tam_biet
+  - action: utter_tambiet
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+
+- story: chao-ten-chucnang-gioithieu-muctieu-dfa-out-lt-tambiet
+  steps:
+  - intent: chao_hoi
+  - action: utter_chaohoi
+  - intent: hoi_ten
+  - action: utter_hoiten
+  - intent: chuc_nang
+  - action: utter_chucnang
+  - intent: gioi_thieu
+  - action: utter_gioithieu
+  - intent: muc_tieu
+  - action: utter_muctieu
+  - intent: code_dfa
+  - action: utter_code_dfa
+  - intent: out_of_scope
+  - action: utter_reply_out_of_scope
+  - intent: lt_what_asking
+  - action: action_traloilt
+  - intent: tam_biet
+  - action: utter_tambiet
+
