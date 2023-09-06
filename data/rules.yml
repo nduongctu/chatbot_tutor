@@ -7,12 +7,15 @@ rules:
   - intent: tam_biet
   - action: utter_tambiet
 
-
 - rule: code dfa
   steps:
   - intent: code_dfa
   - action: utter_code_dfa
 
+- rule: cam on
+  steps:
+  - intent: cam_on
+  - action: utter_cam_on
 
 - rule: chao hoi
   steps:
@@ -43,3 +46,8 @@ rules:
   steps:
     - intent: lt_what_asking
     - action: action_traloilt
+
+- rule : vi du
+  steps:
+    - intent: vd_asking
+    - action : action_traloivd

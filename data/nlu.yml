@@ -67,6 +67,12 @@ nlu:
     - mục đích
     - yêu cầu sau khi học  
     - mục tiêu môn học
+- intent: cam_on
+  examples: |
+    - cảm ơn
+    - thank
+    - thank you
+
 - intent: code_dfa
   examples: |
     - bạn có thể code [DFA] không?
@@ -133,7 +139,27 @@ nlu:
     - [nfa](lt_content:nfa) là gì
     - lý thuyết về [nfa](lt_content:nfa)
     - thông tin về [nfa](lt_content:nfa)
+- intent: vd_asking
+  examples: |
+    - cho ví dụ về [dfa](vd_content:dfa) 
+    - ví dụ [dfa](vd_content:dfa) 
+    - minh họa [dfa](vd_content:dfa) 
+    
+    - cho ví dụ về [nfa](vd_content:nfa) 
+    - ví dụ [nfa](vd_content:nfa) 
+    - minh họa [nfa](vd_content:nfa) 
 
+- synonym: nfa
+  examples: |
+    - automat hữu hạn phi xác định
+    - otomat hữu hạn phi xác định
+    - ôtômát hữu hạn phi xác định
+    - hữu hạn không xác định
+    - huu han khong xac dinh
+    - NFA
+    - hữu hạn phi xác định
+    - huu han phi xac dinh
+    - Nondeterministic Finite Automaton
 - synonym: dfa
   examples: |
     - automat hữu hạn đơn định
@@ -142,3 +168,4 @@ nlu:
     - DFA
     - hữu hạn đơn định
     - huu han don dinh
+    - Deterministic Finite Automaton

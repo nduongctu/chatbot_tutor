@@ -7,12 +7,15 @@ intents:
   - chuc_nang
   - gioi_thieu
   - muc_tieu
+  - cam_on
   - code_dfa
   - out_of_scope
   - lt_what_asking
+  - vd_asking
 
 entities:
   - lt_content
+  - vd_content
 
 slots:
   lt_content:
@@ -21,6 +24,12 @@ slots:
       - type: from_entity
         entity: lt_content
         value: lt_content
+  vd_content:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: vd_content
+        value: vd_content
 
 responses:
   utter_chaohoi:
@@ -50,7 +59,8 @@ responses:
               _+ Trình bày được ngôn ngữ phi ngữ cảnh, pushdown automata và nhận biết ngôn ngữ phi ngữ cảnh bởi các pushdown automata. 
               _+ Hiểu máy Turing, kiến trúc máy tính Von Neumann, khả năng tính toán của máy tính dựa trên các mô hình này.
               _+ Vận dụng kiến thức về automata, biểu thức chính quy, văn phạm chính quy, PDA, TM để cài đặt và giải quyết các bài toán thực tế. "
-
+  utter_cam_on:
+  - text: "- Không có gì !  tôi chỉ hoàn thành nhiệm vụ của tôi."
   utter_code_dfa:
     - text: |
         Đây là code hàm DFA:
@@ -101,4 +111,6 @@ actions:
   - utter_muctieu
   - utter_code_dfa
   - utter_reply_out_of_scope
+  - utter_cam_on
   - action_traloilt
+  - action_traloivd
