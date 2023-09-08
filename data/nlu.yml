@@ -79,7 +79,6 @@ nlu:
     - code [DFA]
     - hướng dẫn hàm [DFA] 
     - hàm [DFA]
-    - code ôtômát hữu hạn đơn định
 - intent: out_of_scope
   examples: |
     - Angular
@@ -131,24 +130,48 @@ nlu:
     - lập trình hướng đối tượng
 - intent: lt_what_asking
   examples: |
-    
     - [dfa](lt_content:dfa) là gì
+    - [automat hữu hạn đơn định](lt_content:dfa) là gì
+    - [Deterministic Finite Automaton](lt_content:dfa) là gì
     - lý thuyết về [dfa](lt_content:dfa)
-    - thông tin về [dfa](lt_content:dfa)
-    
-    - [nfa](lt_content:nfa) là gì
+    - thông tin về [DFA](lt_content:dfa)
+    - định nghĩa [dfa](lt_content:dfa)
+    - [nfa](lt_content:nfa) là gì 
     - lý thuyết về [nfa](lt_content:nfa)
     - thông tin về [nfa](lt_content:nfa)
+    - định nghĩa [nfa](lt_content:nfa)
+    - định nghĩa về [Nondeterministic Finite Automaton](lt_content:nfa)
+    - [sets](lt_content:sets) là gì 
+    - [tập hợp](lt_content:sets) là gì
+    - định nghĩa [sets](lt_content:sets)
+    - lý thuyết về [sets](lt_content:sets)    
+    - [element](lt_content:element) là gì
+    - định nghĩa về [element](lt_content:element) 
+    - lý thuyết về [element](lt_content:element)
 - intent: vd_asking
   examples: |
     - cho ví dụ về [dfa](vd_content:dfa) 
     - ví dụ [dfa](vd_content:dfa) 
-    - minh họa [dfa](vd_content:dfa) 
-    
+    - minh họa [dfa](vd_content:dfa)
+    - thí dụ [automat hữu hạn đơn định](vd_content:dfa)
+    - thí dụ [dfa](vd_content:dfa)        
     - cho ví dụ về [nfa](vd_content:nfa) 
     - ví dụ [nfa](vd_content:nfa) 
     - minh họa [nfa](vd_content:nfa) 
-
+    - thí dụ [nfa](vd_content:nfa) 
+    - cho ví dụ về [sets](vd_content:sets)
+    - ví dụ [sets](vd_content:sets)
+    - minh họa [sets](vd_content:sets)
+    - kí hiệu về [sets](vd_content:sets)
+    - thí dụ [sets](vd_content:sets)
+    - thí dụ [tập hợp](vd_content:sets)
+    - cho ví dụ về [element](vd_content:element)
+    - ví dụ [element](vd_content:element)
+    - minh họa [element](vd_content:element)
+    - kí hiệu về [element](vd_content:element)
+- synonym: dfa
+  examples: | 
+    - DFA
 - synonym: nfa
   examples: |
     - automat hữu hạn phi xác định
@@ -160,12 +183,16 @@ nlu:
     - hữu hạn phi xác định
     - huu han phi xac dinh
     - Nondeterministic Finite Automaton
-- synonym: dfa
+- synonym: sets
+  examples: | 
+    - tập hợp
+    - tap hop 
+    - tập hợp
+- synonym: element
   examples: |
-    - automat hữu hạn đơn định
-    - otomat hữu hạn đơn định
-    - ôtômát hữ hạn đơn định
-    - DFA
-    - hữu hạn đơn định
-    - huu han don dinh
-    - Deterministic Finite Automaton
+    - phần tử
+    - phan tu
+    - đối tượng trong tập hợp
+    - doi tuong trong tap hop
+    - Phần tử
+    - Đối tượng trong tập hợp

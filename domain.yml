@@ -99,8 +99,6 @@ responses:
         ```
   utter_reply_out_of_scope:
     - text: "Xin lỗi, câu hỏi của bạn nằm ngoài lĩnh vực của mình, vui lòng hỏi lại!"
-  utter_lt_not_available:
-    - text: "Xin lỗi, hiện tại chúng tôi không có thông tin về {lt_content}."
 
 actions:
   - utter_chaohoi
