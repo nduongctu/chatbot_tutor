@@ -128,6 +128,7 @@ nlu:
     - cấu trúc rời rạc là gì
     - lập trình c
     - lập trình hướng đối tượng
+
 - intent: lt_what_asking
   examples: |
     - [dfa](lt_content:dfa) là gì
@@ -136,63 +137,62 @@ nlu:
     - lý thuyết về [dfa](lt_content:dfa)
     - thông tin về [DFA](lt_content:dfa)
     - định nghĩa [dfa](lt_content:dfa)
+    - lý thuyết [ôtômát hữu hạn đơn định](lt_content:dfa)
+    - [otomat huu han don dinh](lt_content:dfa) là gì
+    
     - [nfa](lt_content:nfa) là gì 
     - lý thuyết về [nfa](lt_content:nfa)
+    - lý thuyết [automat hữu hạn phi xác định](lt_content:nfa)
     - thông tin về [nfa](lt_content:nfa)
+    - định nghĩa [ôtômát hữu hạn phi xác định](lt_content:nfa)
     - định nghĩa [nfa](lt_content:nfa)
     - định nghĩa về [Nondeterministic Finite Automaton](lt_content:nfa)
+    
     - [sets](lt_content:sets) là gì 
     - [tập hợp](lt_content:sets) là gì
     - định nghĩa [sets](lt_content:sets)
-    - lý thuyết về [sets](lt_content:sets)    
+    - định nghĩa [tap hop](lt_content:sets)
+    - lý thuyết [sets](lt_content:sets)    
+    
     - [element](lt_content:element) là gì
     - định nghĩa về [element](lt_content:element) 
-    - lý thuyết về [element](lt_content:element)
+    - lý thuyết [element](lt_content:element)
+    - [phần tử](lt_content:element) là gì
+    - định nghĩa [phan tu](lt_content:element)
+
+    - [phép toán](lt_content:pheptoan) trên tập hợp 
+    - liệt kê các [phép toán](lt_content:pheptoan) trên tập hợp
 - intent: vd_asking
   examples: |
     - cho ví dụ về [dfa](vd_content:dfa) 
     - ví dụ [dfa](vd_content:dfa) 
-    - minh họa [dfa](vd_content:dfa)
+    - minh họa [DFA](vd_content:dfa)
     - thí dụ [automat hữu hạn đơn định](vd_content:dfa)
-    - thí dụ [dfa](vd_content:dfa)        
+    - thí dụ [dfa](vd_content:dfa)     
+    - ví dụ [otomat hữu hạn đơn định](vd_content:dfa)
+    - thí dụ [ôtômát hữu hạn đơn định](vd_content:dfa)
+    
     - cho ví dụ về [nfa](vd_content:nfa) 
     - ví dụ [nfa](vd_content:nfa) 
-    - minh họa [nfa](vd_content:nfa) 
+    - minh họa [otomat huu han phi xac dinh](vd_content:nfa) 
     - thí dụ [nfa](vd_content:nfa) 
+    - ví dụ [automat hữu hạn phi xác định](vd_content:nfa)
+    - thí dụ về [ôtômát hữu hạn phi xác định](vd_content:nfa)
+
     - cho ví dụ về [sets](vd_content:sets)
     - ví dụ [sets](vd_content:sets)
     - minh họa [sets](vd_content:sets)
-    - kí hiệu về [sets](vd_content:sets)
+    - kí hiệu [tap hop](vd_content:sets)
     - thí dụ [sets](vd_content:sets)
     - thí dụ [tập hợp](vd_content:sets)
+    
     - cho ví dụ về [element](vd_content:element)
     - ví dụ [element](vd_content:element)
     - minh họa [element](vd_content:element)
-    - kí hiệu về [element](vd_content:element)
-- synonym: dfa
-  examples: | 
-    - DFA
-- synonym: nfa
-  examples: |
-    - automat hữu hạn phi xác định
-    - otomat hữu hạn phi xác định
-    - ôtômát hữu hạn phi xác định
-    - hữu hạn không xác định
-    - huu han khong xac dinh
-    - NFA
-    - hữu hạn phi xác định
-    - huu han phi xac dinh
-    - Nondeterministic Finite Automaton
-- synonym: sets
-  examples: | 
-    - tập hợp
-    - tap hop 
-    - tập hợp
-- synonym: element
-  examples: |
-    - phần tử
-    - phan tu
-    - đối tượng trong tập hợp
-    - doi tuong trong tap hop
-    - Phần tử
-    - Đối tượng trong tập hợp
+    - kí hiệu [element](vd_content:element)
+    - kí hiệu [phần tử](vd_content:element)
+    - thí dụ [phan tu](vd_content:element)
+
+    - thí dụ [phép toán trên tập hợp](vd_content:pheptoan)  
+    - ví dụ [phép toán](vd_content:pheptoan) trên tập hợp
+    - ví dụ về [phep toan tren tap hop](vd_content:pheptoan)

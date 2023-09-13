@@ -2,5 +2,6 @@
   "dfa": "DFA là viết tắt của Deterministic Finite Automaton, là một mô hình trong lý thuyết ngôn ngữ và tự động hóa.",
   "nfa": "NFA là viết tắt của Nondeterministic Finite Automaton, là một mô hình khác trong lý thuyết ngôn ngữ và tự động hóa.",
   "sets": "Một tập hợp là một bộ các phần tử. Các phần tử tạo nên một tập hợp có thể là bất kỳ loại đối tượng toán học nào: số, ký hiệu, điểm trong không gian, đường thẳng, các hình dạng hình học khác, các biến hoặc thậm chí các tập hợp khác. ",
-  "element": "Phần tử là các đối tượng hoặc các thành phần cụ thể mà tập hợp đó chứa. Nói cách khác, phần tử là các thành phần riêng lẻ mà tạo nên tập hợp. Một phần tử có thể thuộc hoặc không thuộc vào tập hợp."
+  "element": "Phần tử là các đối tượng hoặc các thành phần cụ thể mà tập hợp đó chứa. Nói cách khác, phần tử là các thành phần riêng lẻ mà tạo nên tập hợp. Một phần tử có thể thuộc hoặc không thuộc vào tập hợp.",
+  "pheptoan": "Các toán tử cơ bản trên tập hợp bao gồm các toán tử một ngôi (unary) và hai ngôi (binary) như sau: phép phần bù (complement), phép hợp (union), phép giao (intersection), phép trừ (difference), tích Đecac"
 }

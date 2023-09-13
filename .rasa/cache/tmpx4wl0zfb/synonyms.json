@@ -1,0 +1,23 @@
+{
+  "automat hữu hạn đơn định": "dfa",
+  "dfa": "dfa",
+  "deterministic finite automaton": "dfa",
+  "ôtômát hữu hạn đơn định": "dfa",
+  "otomat huu han don dinh": "dfa",
+  "automat hữu hạn phi xác định": "nfa",
+  "nfa": "nfa",
+  "ôtômát hữu hạn phi xác định": "nfa",
+  "nondeterministic finite automaton": "nfa",
+  "tập hợp": "sets",
+  "sets": "sets",
+  "tap hop": "sets",
+  "phần tử": "element",
+  "element": "element",
+  "phan tu": "element",
+  "phép toán": "pheptoan",
+  "pheptoan": "pheptoan",
+  "otomat hữu hạn đơn định": "dfa",
+  "otomat huu han phi xac dinh": "nfa",
+  "phép toán trên tập hợp": "pheptoan",
+  "phep toan tren tap hop": "pheptoan"
+}
