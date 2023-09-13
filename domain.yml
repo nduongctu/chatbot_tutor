@@ -60,7 +60,7 @@ responses:
               _+ Hiểu máy Turing, kiến trúc máy tính Von Neumann, khả năng tính toán của máy tính dựa trên các mô hình này.
               _+ Vận dụng kiến thức về automata, biểu thức chính quy, văn phạm chính quy, PDA, TM để cài đặt và giải quyết các bài toán thực tế. "
   utter_cam_on:
-  - text: "- Không có gì !  tôi chỉ hoàn thành nhiệm vụ của tôi."
+  - text: "Không có chi! Tôi chỉ đang làm việc của tôi."
   utter_code_dfa:
     - text: |
         Đây là code hàm DFA:
