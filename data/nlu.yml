@@ -162,6 +162,172 @@ nlu:
 
     - [phép toán](lt_content:pheptoan) trên tập hợp 
     - liệt kê các [phép toán](lt_content:pheptoan) trên tập hợp
+    - [phép toán](lt_content:pheptoan) trong tập hợp 
+    - các [phép toán trong tập hợp](lt_content:pheptoan) là gì
+    
+    - [quan hệ hai ngôi](lt_content:quanhe) là gì 
+    - [quan hệ](lt_content:quanhe) là gì 
+    - đinh nghĩa [quan hệ](lt_content:quanhe)
+    - lý thuyết [quan hệ](lt_content:quanhe)
+    
+    - các [tính chất của quan hệ](lt_content:tinhchat_quanhe) là gì
+    - [tính chất quan hệ](lt_content:tinhchat_quanhe)
+    - [tinh chat cua quan he](lt_content:tinhchat_quanhe) la gi
+    - định nghĩa [tinh chat cua quan he](lt_content:tinhchat_quanhe)
+    
+    - [quan hệ tương đương](lt_content:quanhe_tuongduong) là gì
+    - lý thuyết về [quan hệ tương đương](lt_content:quanhe_tuongduong) 
+    - [quan he tuong duong](lt_content:quanhe_tuongduong) 
+    - đinh nghĩa [quan he tuong duong](lt_content:quanhe_tuongduong) 
+    
+    - [quan hệ bao đóng](lt_content:quanhe_baodong) là gì
+    - lý thuyết về [quan hệ bao đóng](lt_content:quanhe_baodong) 
+    - [quan he bao dong](lt_content:quanhe_baodong) 
+    - định nghĩa [quan hệ bao đóng](lt_content:quanhe_baodong) 
+    
+    - [bao đóng bắt cầu](lt_content:baodong_batcau) là gì
+    - lý thuyết về [bao đóng bắt cầu](lt_content:baodong_batcau) 
+    - [bao dong bat cau](lt_content:baodong_batcau) 
+    - định nghĩa [bao dong bat cau](lt_content:baodong_batcau) 
+    
+    - [bao đóng phản xạ](lt_content:baodong_phanxa) là gì
+    - lý thuyết về [bao đóng phản xạ](lt_content:baodong_phanxa) 
+    - [bao dong phan xa](lt_content:baodong_phanxa) 
+    - định nghĩa [bao đóng phản xạ](lt_content:baodong_phanxa)
+
+    - [quy nạp](lt_content:quynap) là gì 
+    - [quy nap](lt_content:quynap) la gi
+    - đinh nghĩa [quy nạp](lt_content:quynap)
+    - lý thuyết [quy nạp](lt_content:quynap)
+
+    - [đồ thị](lt_content:dothi) là gì 
+    - [do thi](lt_content:dothi) la gi
+    - đinh nghĩa [đồ thị](lt_content:dothi)
+    - lý thuyết [đồ thị](lt_content:dothi)
+    
+    - [đường đi trong đồ thị](lt_content:duongdi) là gì 
+    - [duong di](lt_content:duongdi) la gi
+    - đinh nghĩa [đường đi](lt_content:duongdi)
+    - lý thuyết [đường đi](lt_content:duongdi)
+    
+    - [đường đi trong đồ thị](lt_content:duongdi) là gì 
+    - [duong di](lt_content:duongdi) la gi
+    - đinh nghĩa [đường đi](lt_content:duongdi)
+    - lý thuyết [đường đi](lt_content:duongdi)
+    
+    - [độ dài đường đi](lt_content:dodaiduongdi) là gì 
+    - [độ dài đường đi](lt_content:dodaiduongdi) la gi
+    - đinh nghĩa [độ dài đường đi](lt_content:dodaiduongdi)
+    - lý thuyết [độ dài đường đi](lt_content:dodaiduongdi)
+    
+    - [đồ thị có hướng](lt_content:dothicohuong) là gì 
+    - [do thi co huong](lt_content:dothicohuong) la gi
+    - đinh nghĩa [đồ thị có hướng](lt_content:dothicohuong)
+    - lý thuyết [đồ thị có hướng](lt_content:dothicohuong)
+    
+    - [Cây](lt_content:cay) là gì 
+    - [cay](lt_content:cay) la gi
+    - đinh nghĩa [cây](lt_content:cay)
+    - lý thuyết về [cây](lt_content:cay)
+    
+    - [Ngôn ngữ](lt_content:ngonngu) là gì 
+    - [ngon ngu](lt_content:ngonngu) la gi
+    - đinh nghĩa [ngôn ngữ](lt_content:ngonngu)
+    - lý thuyết [ngôn ngữ](lt_content:ngonngu)
+    
+    - [Bộ chữ cái](lt_content:bochucai) là gì 
+    - [bo chu cai](lt_content:bochucai) la gi
+    - đinh nghĩa [bộ chữ cái](lt_content:bochucai)
+    - lý thuyết [bộ chữ cái](lt_content:bochucai)
+    
+    - [Ký hiệu](lt_content:kyhieu) là gì 
+    - [Ky hieu](lt_content:kyhieu) la gi
+    - đinh nghĩa [ký hiệu](lt_content:kyhieu)
+    - lý thuyết [ký hiệu](lt_content:kyhieu)
+    
+    - [Chuỗi](lt_content:chuoi) là gì 
+    - [chuoi](lt_content:chuoi) la gi
+    - đinh nghĩa [chuỗi](lt_content:chuoi)
+    - lý thuyết [chuỗi](lt_content:chuoi)
+    
+    - [Độ dài của chuỗi](lt_content:dodai) là gì 
+    - [Do dai cua chuoi](lt_content:dodai) la gi
+    - đinh nghĩa [độ dài chuỗi](lt_content:dodai)
+    - lý thuyết [độ dài chuỗi](lt_content:dodai)
+    
+    - [Chuỗi rỗng](lt_content:chuoi_rong) là gì 
+    - [chuoi rong](lt_content:chuoi_rong) la gi
+    - đinh nghĩa [chuỗi rỗng](lt_content:chuoi_rong)
+    - lý thuyết [chuỗi rỗng](lt_content:chuoi_rong)
+    
+    - [Tiền tố hậu tố](lt_content:tiento_hauto) là gì 
+    - [Tiền tố](lt_content:tiento_hauto) là gì
+    - [hậu tố](lt_content:tiento_hauto) là gì 
+    - [tien to](lt_content:tiento_hauto) la gi
+    - đinh nghĩa [hậu tố](lt_content:tiento_hauto)
+    - lý thuyết [tiền tố](lt_content:tiento_hauto)
+    
+    - [Tiền tố hậu tố thực sự](lt_content:tiento_hauto_thucsu) là gì 
+    - [Tiền tố thực sự](lt_content:tiento_hauto_thucsu) là gì 
+    - [Hậu tố thực sự](lt_content:tiento_hauto_thucsu) là gì 
+    - [tien to hau to thuc su](lt_content:tiento_hauto_thucsu) la gi
+    - đinh nghĩa [tiền tố hậu tố thực sự](lt_content:tiento_hauto_thucsu)
+    - lý thuyết [tiền tố thực sự](lt_content:tiento_hauto_thucsu)
+    - lý thuyết [hậu tố thực sự](lt_content:tiento_hauto_thucsu)
+
+    
+    - [Chuỗi nối kết](lt_content:chuoinoiket) là gì 
+    - [Chuỗi ghép](lt_content:chuoinoiket) là gì 
+    - [chuoi noi ket](lt_content:chuoinoiket) la gi
+    - đinh nghĩa [chuỗi ghép](lt_content:chuoinoiket)
+    - lý thuyết [chuỗi nối kết](lt_content:chuoinoiket)
+    
+    - [Chuỗi đảo ngược](lt_content:chuoidao_nguoc) là gì 
+    - [chuoi dao nguoc](lt_content:chuoidao_nguoc) la gi
+    - đinh nghĩa [chuỗi đảo ngược](lt_content:chuoidao_nguoc)
+    - lý thuyết [chuỗi đảo ngược](lt_content:chuoidao_nguoc)
+    
+    - [Ngôn ngữ hình thức](lt_content:ngon_ngu_hinhthuc) là gì 
+    - [Ngon ngu hinh thuc](lt_content:ngon_ngu_hinhthuc) la gi
+    - đinh nghĩa [ngôn ngữ hình thức](lt_content:ngon_ngu_hinhthuc)
+    - lý thuyết [ngôn ngữ hình thức](lt_content:ngon_ngu_hinhthuc)
+
+    - [Phép toán trên ngôn ngữ](lt_content:pheptoan_ngonngu) là gì 
+    - [phep toan tren ngon ngu](lt_content:pheptoan_ngonngu) la gi
+    - đinh nghĩa [phép toán ngôn ngữ](lt_content:pheptoan_ngonngu)
+    - lý thuyết [phép toán trên ngôn ngữ](lt_content:pheptoan_ngonngu)
+ 
+    - [phép phần bù](lt_content:phanbu) là gì 
+    - [phep phan bu](lt_content:phanbu) la gi
+    - đinh nghĩa [phép phần bù](lt_content:phanbu)
+    - lý thuyết [phép phần bù](lt_content:phanbu)
+    
+    - [phép nối kết](lt_content:phepnoiket) là gì 
+    - [phep noi ket](lt_content:phepnoiket) la gi
+    - đinh nghĩa [phép nối kết](lt_content:phepnoiket)
+    - lý thuyết [phép ghép](lt_content:phepnoiket)
+    
+    - [Phép bao đóng](lt_content:phepbaodong) là gì 
+    - [phep bao dong](lt_content:phepbaodong) la gi
+    - đinh nghĩa [phep bao dong](lt_content:phepbaodong)
+    - lý thuyết [phep bao dong](lt_content:phepbaodong)
+    
+    - [Văn phạm](lt_content:vanpham) là gì 
+    - [van pham](lt_content:vanpham) la gi
+    - đinh nghĩa [văn phạm](lt_content:vanpham)
+    - lý thuyết [văn phạm](lt_content:vanpham)
+    
+    - [Văn phạm cấu trúc](lt_content:vanpham_cautruc) là gì 
+    - [van pham cau truc](lt_content:vanpham_cautruc) la gi
+    - đinh nghĩa [văn phạm cấu trúc](lt_content:vanpham_cautruc)
+    - lý thuyết [văn phạm cấu trúc](lt_content:vanpham_cautruc)
+    
+    - [Dẫn xuất](lt_content:danxuat) là gì 
+    - [dan xuat](lt_content:danxuat) la gi
+    - đinh nghĩa [dẫn xuất](lt_content:danxuat)
+    - lý thuyết [dẫn xuất](lt_content:danxuat)
+    
+
 - intent: vd_asking
   examples: |
     - cho ví dụ về [dfa](vd_content:dfa) 
@@ -174,10 +340,10 @@ nlu:
     
     - cho ví dụ về [nfa](vd_content:nfa) 
     - ví dụ [nfa](vd_content:nfa) 
-    - minh họa [otomat huu han phi xac dinh](vd_content:nfa) 
+    - minh họa [otomat huu han khong don dinh](vd_content:nfa) 
     - thí dụ [nfa](vd_content:nfa) 
-    - ví dụ [automat hữu hạn phi xác định](vd_content:nfa)
-    - thí dụ về [ôtômát hữu hạn phi xác định](vd_content:nfa)
+    - ví dụ [automat hữu hạn không đơn định](vd_content:nfa)
+    - thí dụ về [ôtômát hữu hạn không đơn định](vd_content:nfa)
 
     - cho ví dụ về [sets](vd_content:sets)
     - ví dụ [sets](vd_content:sets)
@@ -199,3 +365,30 @@ nlu:
     - ví dụ về [phep toan tren tap hop](vd_content:pheptoan)
     - thí dụ [phép toán trong tập hợp](vd_content:pheptoan)  
 
+    - thí dụ [quan hệ](vd_content:quanhe)  
+    - ví dụ [quan hệ](vd_content:quanhe) trên tập hợp
+    - ví dụ [quan hệ](vd_content:quanhe) trong tập hợp
+    - ví dụ về [quan he trong tap hop](vd_content:quanhe)
+    - thí dụ [quan he tren tap hop](vd_content:quanhe)
+    
+    - thí dụ [tính chất của quan hệ](vd_content:tinhchat_quanhe)  
+    - ví dụ [tính chất quan hệ](vd_content:tinhchat_quanhe) trên tập hợp
+    - ví dụ [tính chất trong quan hệ](vd_content:tinhchat_quanhe) trong tập hợp
+    - ví dụ về [tinh chat trong quan he](vd_content:tinhchat_quanhe)
+    - thí dụ [tinh chat quan he](vd_content:tinhchat_quanhe)
+    
+    - thí dụ [tính chất của quan hệ](vd_content:tinhchat_quanhe)  
+    - ví dụ [tính chất quan hệ](vd_content:tinhchat_quanhe) trên tập hợp
+    - ví dụ [tính chất trong quan hệ](vd_content:tinhchat_quanhe) trong tập hợp
+    - ví dụ về [tinh chat trong quan he](vd_content:tinhchat_quanhe)
+    - thí dụ [tinh chat quan he](vd_content:tinhchat_quanhe)
+
+    - thí dụ [quan hệ tương đương(vd_content:quanhe_tuongduong)  
+    - ví dụ [quan hệ tương đương](vd_content:quanhe_tuongduong)
+    - ví dụ về [quan he tuong duong](vd_content:quanhe_tuongduong)
+    - thí dụ [quan he tuong duong](vd_content:quanhe_tuongduong)
+    
+    - thí dụ [quan hệ bao đóng(vd_content:quanhe_baodong)  
+    - ví dụ [quan hệ bao đóng](vd_content:quanhe_baodong)
+    - ví dụ về [quan he bao đóng](vd_content:quanhe_baodong)
+    - thí dụ [quan he bao đóng](vd_content:quanhe_baodong)

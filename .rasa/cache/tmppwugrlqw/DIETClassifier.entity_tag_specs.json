@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-lt_content",
+      "2": "I-lt_content",
+      "3": "L-lt_content",
+      "4": "U-lt_content",
+      "5": "B-vd_content",
+      "6": "I-vd_content",
+      "7": "L-vd_content",
+      "8": "U-vd_content",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-lt_content": 1,
+      "I-lt_content": 2,
+      "L-lt_content": 3,
+      "U-lt_content": 4,
+      "B-vd_content": 5,
+      "I-vd_content": 6,
+      "L-vd_content": 7,
+      "U-vd_content": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]
