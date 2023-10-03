@@ -7,5 +7,11 @@
   "quanhe": "Cho S = {0,1,2,3}\n - Quan hệ thứ tự nhỏ hơn trên S được xác định hởi tập : L = {(0,1),(0,2),(0,3),(1,2),(1,3),(2,3)}",
   "tinhchat_quanhe": "Ví dụ : Nếu a có quan hệ với b, thì b cũng có quan hệ với a",
   "quanhe_tuongduong": " E có 4 lớp tương đương khác nhau: [0] = {0}, [1] = {1}, [2] = {2} và [3] = {3} \n P có 2 lớp tương đương khác nhau: [0] = [2] = {0,2} và [1] = [3] = {1,3}",
-  "quanhe_baodong": "Cho quan hệ R = {(1,2),(2,2),(2,3),(1,3)} trên tập hợp S = {1,2,3}\n Khi đó ta có  : \n R+ = {(1,2),(2,2),(2,3),(1,3)}\n R*={(1,1),(1,2),(1,3),(2,2),(2,3),(3,3)}"
+  "quanhe_baodong": "Cho quan hệ R = {(1,2),(2,2),(2,3),(1,3)} trên tập hợp S = {1,2,3}\n Khi đó ta có  : \n R+ = {(1,2),(2,2),(2,3),(1,3)}\n R*={(1,1),(1,2),(1,3),(2,2),(2,3),(3,3)}",
+  "vp_loai1": "V = {S,B,C},T={a,b,c} và tập P = {S ➝ aSBC\n S ➝ aBC\n CB ➝ BC\n aB ➝ ab\n bB ➝ bb\n bC ➝ bc\n cC ➝ cc}\n Đây là văn phạm loại 1.",
+  "vp_loai2": "V = {S}, T = {a,b} và tập P = { S ➝ aSb\n S ➝ab}\n Đây là văn phạm loại 2.",
+  "vp_loai3": "V={S,A},T = {a,b} và tập P = {S ➝ aS \n S ➝ aA \n A ➝ bA \n A ➝ b}\n Đây là văn phạm loại 3 dạng tuyến tính phải.",
+  "vd_tt_trai": "Văn phạm G ({S,A,B},{a,b},P,S) với các luật sinh được cho như sau : S ➝ Aab\n A ➝ Aab |B \n B ➝ a \n là văn phạm tuyến tính trái.",
+  "vd_tt_phai": "Văn phạm G ({S},{a,b},P,S) với các luật sinh được cho như sau : S ➝ abS | a\n là văn phạm tuyến tính phải.",
+  "vd_phi_ngucanh": "Văn phạm G ({S, A, B}, {a, b}, P, S ), trong đó P gồm các luật sinh sau: \nS → AB \nA → aA\n A → a \nB → bB \nB → b \nQuy ước ký hiệu: \n- Các chữ in hoa A, B, C, D, E, ... và S ký hiệu các biến (S thường được dùng làm ký hiệu bắt đầu ).\n - Các chữ nhỏ a, b, c, d, e, ...; các chữ số và một số ký hiệu khác ký hiệu cho các ký hiệu kết thúc. \n- Các chữ in hoa X, Y, Z là các ký hiệu có thể là ký hiệu kết thúc hoặc biến.\n - Các chữ Hi-lạp α, β, γ, ... biểu diễn cho chuỗi các ký hiệu kết thúc và biến."
 }

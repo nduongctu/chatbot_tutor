@@ -7,11 +7,6 @@ rules:
   - intent: tam_biet
   - action: utter_tambiet
 
-- rule: code dfa
-  steps:
-  - intent: code_dfa
-  - action: utter_code_dfa
-
 - rule: cam on
   steps:
   - intent: cam_on
@@ -36,11 +31,6 @@ rules:
   steps:
   - intent: muc_tieu
   - action: utter_muctieu
-
-- rule : out of scope
-  steps:
-    - intent: out_of_scope
-    - action: utter_reply_out_of_scope
 
 - rule : lt_what
   steps:

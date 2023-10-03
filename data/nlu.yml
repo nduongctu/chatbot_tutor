@@ -72,63 +72,6 @@ nlu:
     - cảm ơn
     - thank
     - thank you
-
-- intent: code_dfa
-  examples: |
-    - bạn có thể code [DFA] không?
-    - code [DFA]
-    - hướng dẫn hàm [DFA] 
-    - hàm [DFA]
-- intent: out_of_scope
-  examples: |
-    - Angular
-    - Đạo Hàm
-    - int main()
-    - bạn có thể hỗ trợ dùng VScode được kkhông
-    - Video hướng dẫn python
-    - mình muốn biết về python
-    - Sort array
-    - công nghệ thông tin là gì
-    - test
-    - ngoài tin học lý thuýet ra bạn còn biết về môn nào nữa không ?
-    - trứng có trước hay gà có trước
-    - toán rời rạc là gì
-    - Cho mình thêm vài câu châm ngôn đi
-    - printf_s
-    - bla bla 
-    - làm sao để qua môn
-    - Rớt môn rồi làm sao bây giờ
-    - cấu trúc rời rạc là gì 
-    - python
-    - Học gì để đạt điểm cao nhập môn lập trình?
-    - Làm sao để lấy ra dãy tăng dần trong mảng
-    - Bạn có biết tìm lỗi trong code không ?
-    - nó chạy như thế noà
-    - hmmm is this a bug ??
-    - Ăn tết chưa ạ
-    - Câu ăn tết ạ
-    - Tìm kiếm nhị phân
-    - Câu châm ngôn hay
-    - Kĩ thuật cắm cờ
-    - Hàm conio làm gì
-    - Kế thừa  
-    - Bot có biết dạng đề thi học kì không?
-    - đề thi
-    - giải bài tập
-    - bài tập
-    - Thế biết tên mình không?
-    - Machine learning là gì
-    - Làm sao để master lập trình vậy
-    - thích coi phim không    
-    - deep learning là cái gì
-    - machine learning cái gì vậy
-    - dynamic programming
-    - toán rời rạc
-    - toán rời rạc là gì
-    - cấu trúc rời rạc là gì
-    - lập trình c
-    - lập trình hướng đối tượng
-
 - intent: lt_what_asking
   examples: |
     - [dfa](lt_content:dfa) là gì
@@ -144,7 +87,7 @@ nlu:
     - lý thuyết về [nfa](lt_content:nfa)
     - lý thuyết [automat hữu hạn phi xác định](lt_content:nfa)
     - thông tin về [nfa](lt_content:nfa)
-    - định nghĩa [ôtômát hữu hạn phi xác định](lt_content:nfa)
+    - định nghĩa [ôtômát hữu hạn không đơn định](lt_content:nfa)
     - định nghĩa [nfa](lt_content:nfa)
     - định nghĩa về [Nondeterministic Finite Automaton](lt_content:nfa)
     
@@ -319,7 +262,9 @@ nlu:
     
     - [Văn phạm cấu trúc](lt_content:vanpham_cautruc) là gì 
     - [van pham cau truc](lt_content:vanpham_cautruc) la gi
+    - [van pham cau truc G](lt_content:vanpham_cautruc) la gi
     - đinh nghĩa [văn phạm cấu trúc](lt_content:vanpham_cautruc)
+    - [Văn phạm cấu trúc G](lt_content:vanpham_cautruc)
     - lý thuyết [văn phạm cấu trúc](lt_content:vanpham_cautruc)
     
     - [Dẫn xuất](lt_content:danxuat) là gì 
@@ -327,7 +272,130 @@ nlu:
     - đinh nghĩa [dẫn xuất](lt_content:danxuat)
     - lý thuyết [dẫn xuất](lt_content:danxuat)
     
+    - [Ngôn ngữ của văn phạm](lt_content:ngonngu_vp) là gì 
+    - [ngon ngu van pham](lt_content:ngonngu_vp) la gi
+    - dinh nghia [ngon ngu cua van pham](lt_content:ngonngu_vp)
+    - lý thuyết [ngôn ngữ văn phạm](lt_content:ngonngu_vp)
+    
+    - [Văn phạm tương đương](lt_content:vpham_tuong_duong) là gì 
+    - [Van pham tuong duong](lt_content:vpham_tuong_duong) la gi
+    - đinh nghĩa [van pham tuong duong](lt_content:vpham_tuong_duong)
+    - lý thuyết [van pham tuong duong](lt_content:vpham_tuong_duong)
 
+    - [Văn phạm loại không](lt_content:vp_loai0) là gì 
+    - [Van pham loai khong](lt_content:vp_loai0) la gi
+    - dinh nghia [van pham loai 0](lt_content:vp_loai0)
+    - lý thuyết [văn phạm loại 0](lt_content:vp_loai0)
+    
+    - [Văn phạm loại 1](lt_content:vp_loai1) là gì 
+    - [Van pham loai 1](lt_content:vp_loai1) la gi
+    - dinh nghia [van pham loai mot](lt_content:vp_loai1)
+    - lý thuyết [văn phạm loại một](lt_content:vp_loai1)
+
+    - [Văn phạm loại 2](lt_content:vp_loai2) là gì 
+    - [Van pham loai 2](lt_content:vp_loai2) la gi
+    - dinh nghia [van pham loai hai](lt_content:vp_loai2)
+    - lý thuyết [văn phạm loại hai](lt_content:vp_loai2)
+    
+    - [Văn phạm loại 3](lt_content:vp_loai3) là gì 
+    - [van pham loai ba](lt_content:vp_loai3) la gi
+    - đinh nghĩa [văn phạm loại ba](lt_content:vp_loai3)
+    - ly thuyet [van pham loai 3](lt_content:vp_loai3)
+
+    - [otomat](lt_content:otomat) là gì 
+    - [ôtômát](lt_content:otomat) la gi
+    - đinh nghĩa [automat](lt_content:otomat)
+    - lý thuyết [otomat](lt_content:otomat)
+    
+    - [nfa e](lt_content:nfa_ξ) là gì 
+    - [otomat huu han khong don dinh e](lt_content:nfa_ξ) la gi
+    - đinh nghĩa [otomat hữu hạn không đơn định e](lt_content:nfa_ξ)
+    - lý thuyết [ôtômát hữu hạn không đơn định e](lt_content:nfa_ξ)
+
+    - [Hàm mở rộng e](lt_content:ham_morong_ξ) là gì 
+    - [Ham mo rong e](lt_content:ham_morong_ξ) la gi
+    - đinh nghĩa [hàm mở rộng e](lt_content:ham_morong_ξ)
+    - lý thuyết [hàm mở rộng](lt_content:ham_morong_ξ)
+    
+    - [xây dựng dfa từ nfa](lt_content:dfatunfa) như nào 
+    - [giai thuat xay dung DFA tu NFA](lt_content:dfatunfa) 
+    - dinh nghia [giai thuat xay dung dfa tu nfa](lt_content:dfatunfa)
+    - [Giải thuật xây dựng DFA từ NFA](lt_content:dfatunfa)
+
+    - [Biểu thức chính quy](lt_content:bieuthuc_chinhquy) là gì 
+    - [bieu thuc chinh quy](lt_content:bieuthuc_chinhquy) la gi
+    - dinh nghia [bieu thuc chinh qui](lt_content:bieuthuc_chinhquy)
+    - lý thuyết [biểu thức chính quy](lt_content:bieuthuc_chinhquy)
+    
+    - [Thứ tự ưu tiên của các phép toán trong biểu thức chính quy](lt_content:thutu_uutien) là gì 
+    - [thu tu uu tien phep toan trong bieu thuc chinh quy](lt_content:thutu_uutien) la gi
+    - [Thứ tự ưu tiên phép toán biểu thức chính quy](lt_content:thutu_uutien)
+    - Thông tin về [thu tu uu tien cua cac phep toan trong bieu thuc chinh quy](lt_content:thutu_uutien)
+
+    - [Tính chất đại số của biểu thức chính quy](lt_content:tinhchat_daiso_bieuthuccq) là gì 
+    - [Tinh chat dai so bieu thuc chinh qui](lt_content:tinhchat_daiso_bieuthuccq) la gi
+    - Một só [tính chất đại số biểu thức chính qui](lt_content:tinhchat_daiso_bieuthuccq)
+    - Các [tinh chat dai so cua bieu thuc chinh quy](lt_content:tinhchat_daiso_bieuthuccq)
+    
+    - [ứng dụng của otomat hữu hạn](lt_content:ungdung_otomat_hh) là gì 
+    - [ung dung otomat huu han](lt_content:ungdung_otomat_hh) la gi
+    - Những [ứng dụng ô tô mát hữu hạn](lt_content:ungdung_otomat_hh)
+    - Các [ứng dụng ôtômát hữu hạn](lt_content:ungdung_otomat_hh)
+
+    - [Văn phạm tuyến tính trái](lt_content:vanpham_tt_trai) là gì 
+    - [Van pham tuyen tinh trai](lt_content:vanpham_tt_trai) la gi
+    - đinh nghĩa [van pham tuyen tinh trai](lt_content:vanpham_tt_trai)
+    - lý thuyết [văn phạm tuyen tinh trai](lt_content:vanpham_tt_trai)
+    
+    - [Văn phạm tuyến tính phải](lt_content:vanpham_tt_phai) là gì 
+    - [Van pham tuyen tinh phai](lt_content:vanpham_tt_phai) la gi
+    - dinh nghia [van pham tuyen tinh phai](lt_content:vanpham_tt_phai)
+    - lý thuyết [văn phạm tuyến tính phải](lt_content:vanpham_tt_phai)
+
+    - [Văn phạm chính quy](lt_content:vanpham_chinhquy) là gì 
+    - [Van pham chinh quy](lt_content:vanpham_chinhquy) la gi
+    - dinh nghia [van pham chinh qui](lt_content:vanpham_chinhquy)
+    - lý thuyết [văn phạm chính qui](lt_content:vanpham_chinhquy)
+    
+    - [Bộ đề bơm](lt_content:bode_bom) là gì 
+    - [Bo de bom](lt_content:bode_bom) la gi
+    - định nghĩa [bo de bom](lt_content:bode_bom)
+    - ly thuyet [bộ đề bơm](lt_content:bode_bom)
+
+    - Các [ứng dụng của bộ đề bơm](lt_content:ungdung_bode_bom) là gì 
+    - [Ung dung cua bo de bom](lt_content:ungdung_bode_bom)
+    - Những [ứng dụng bộ đề bơm](lt_content:ungdung_bode_bom)
+    - Một số [ung dung bo de bom](lt_content:ungdung_bode_bom)
+    
+    - [tính chất đóng của tập hợp chính quy](lt_content:tinh_chat_dong_thcq) là gì 
+    - [tinh chat dong tap hop chinh quy](lt_content:tinh_chat_dong_thcq) la gi
+    - đinh nghĩa [tính chất đóng tập hợp chính quy](lt_content:tinh_chat_dong_thcq)
+    - ly thuyet [tinh chat dong tap hop chinh quy](lt_content:tinh_chat_dong_thcq)
+
+    - [Giải thuật xây dựng tập hợp chính quy](lt_content:giai_thuat_xd_thcq) là gì 
+    - [Giai thuat xay dung tap hop chinh quy](lt_content:giai_thuat_xd_thcq) la gi
+    - dinh nghia [giai thuat xay dung tap hop chinh qui](lt_content:giai_thuat_xd_thcq)
+    - lý thuyết [giải thuật xây dựng tập hợp chính qui](lt_content:giai_thuat_xd_thcq)
+
+    - [Văn phạm phi ngữ cảnh]ư(lt_content:vanphamphi_ngucanh) là gì 
+    - [Van pham phi ngu canh](lt_content:vanphamphi_ngucanh) la gi
+    - dinh nghia [van pham phi ngu canh](lt_content:vanphamphi_ngucanh)
+    - lý thuyết [văn phạm phi ngữ cảnh](lt_content:vanphamphi_ngucanh)
+
+    - [Cây dẫn xuất](lt_content:caydan_xuat) là gì 
+    - [Cay dan xuat](lt_content:caydan_xuat) la gi
+    - dinh nghia [cay dan xuat](lt_content:caydan_xuat)
+    - lý thuyết [cây dẫn xuất](lt_content:caydan_xuat)
+    
+    - [Quan hệ giữa dẫn xuất và cây dẫn xuất](lt_content:danxuat_caydanxuat) là gì 
+    - [Quan he giua dan xuat cay dan xuat](lt_content:danxuat_caydanxuat) la gi
+    - đinh nghĩa [Quan hệ giữa dẫn xuất cây dẫn xuất](lt_content:danxuat_caydanxuat)
+    - ly thuyet [quan he giua dan xuat va cay dan xuat](lt_content:danxuat_caydanxuat)
+
+    - [Văn phạm mơ hồ](lt_content:vanpham_moho) là gì 
+    - [Van pham mo ho](lt_content:vanpham_moho) la gi
+    - dinh nghia [van pham mo ho](lt_content:vanpham_moho)
+    - lý thuyết [văn phạm mơ hồ](lt_content:vanpham_moho)
 - intent: vd_asking
   examples: |
     - cho ví dụ về [dfa](vd_content:dfa) 
@@ -381,14 +449,36 @@ nlu:
     - ví dụ [tính chất quan hệ](vd_content:tinhchat_quanhe) trên tập hợp
     - ví dụ [tính chất trong quan hệ](vd_content:tinhchat_quanhe) trong tập hợp
     - ví dụ về [tinh chat trong quan he](vd_content:tinhchat_quanhe)
-    - thí dụ [tinh chat quan he](vd_content:tinhchat_quanhe)
+    - thí dụ về [tinh chat quan he](vd_content:tinhchat_quanhe)
 
-    - thí dụ [quan hệ tương đương(vd_content:quanhe_tuongduong)  
+    - thí dụ [quan hệ tương đương](vd_content:quanhe_tuongduong)  
     - ví dụ [quan hệ tương đương](vd_content:quanhe_tuongduong)
     - ví dụ về [quan he tuong duong](vd_content:quanhe_tuongduong)
-    - thí dụ [quan he tuong duong](vd_content:quanhe_tuongduong)
+    - thí dụ về [quan he tuong duong](vd_content:quanhe_tuongduong)
     
-    - thí dụ [quan hệ bao đóng(vd_content:quanhe_baodong)  
+    - thí dụ [quan hệ bao đóng](vd_content:quanhe_baodong)  
     - ví dụ [quan hệ bao đóng](vd_content:quanhe_baodong)
     - ví dụ về [quan he bao đóng](vd_content:quanhe_baodong)
-    - thí dụ [quan he bao đóng](vd_content:quanhe_baodong)
+    - thí dụ về [quan he bao đóng](vd_content:quanhe_baodong)
+
+    - thí dụ [văn phạm loại 1](vd_content:vp_loai1)  
+    - ví dụ [văn phạm loại một](vd_content:vp_loai1)
+    - ví dụ về [van pham loai mot](vd_content:vp_loai1)
+    - thí dụ về [van pham loai 1](vd_content:vp_loai1)
+    
+    - thí dụ [van pham loai hai](vd_content:vp_loai2)  
+    - ví dụ [văn phạm loại hai](vd_content:vp_loai2)
+    - ví dụ về [văn phạm loại 2](vd_content:vp_loai2)
+    - thí dụ về [van pham loai 2](vd_content:vp_loai2)
+    
+    - thí dụ [văn phạm loại 3](vd_content:vp_loai3)  
+    - ví dụ [van pham loai 3](vd_content:vp_loai3)
+    - ví dụ về [văn phạm loại ba](vd_content:vp_loai3)
+    - thí dụ về [van pham loai ba](vd_content:vp_loai3)
+    
+    - thí dụ [văn phạm tuyến tính trái](vd_content:vd_tt_trai)  
+    - ví dụ [văn phạm tuyến tính trái](vd_content:vd_tt_trai)
+    
+    - ví dụ [văn phạm tuyết tính phải](vd_content:vd_tt_phai)
+    
+    - thí dụ về [văn phạm phi ngữ cảnh](vd_content:vd_phi_ngucanh)
