@@ -396,6 +396,112 @@ nlu:
     - [Van pham mo ho](lt_content:vanpham_moho) la gi
     - dinh nghia [van pham mo ho](lt_content:vanpham_moho)
     - lý thuyết [văn phạm mơ hồ](lt_content:vanpham_moho)
+    
+    - [luật sinh e](lt_content:luat_sinh_ε) là gì 
+    - [luat sinh e](lt_content:luat_sinh_ε) la gi
+    - dinh nghia [luat sinh e](lt_content:luat_sinh_ε)
+    - lý thuyết [luật sinh E](lt_content:luat_sinh_ε)
+    
+    - [Luật sinh đơn vị](lt_content:luat_sinh_donvi) là gì 
+    - [luat sinh don vi](lt_content:luat_sinh_donvi) la gi
+    - dinh nghia [luat sinh don vi](lt_content:luat_sinh_donvi)
+    - lý thuyết [luật sinh đơn vị](lt_content:luat_sinh_donvi)
+    
+    - [Dạng chuẩn Chomsky](lt_content:dangchuan_chomsky) là gì 
+    - [CNF](lt_content:dangchuan_chomsky) la gi
+    - dinh nghia [dang chuan Chomsky](lt_content:dangchuan_chomsky)
+    - lý thuyết [CNF](lt_content:dangchuan_chomsky)
+    
+    - [Dạng chuẩn Greibach](lt_content:dangchuan_greibach) là gì 
+    - [GNF](lt_content:dangchuan_greibach) la gi
+    - dinh nghia [dang chuan Greibach](lt_content:dangchuan_greibach)
+    - lý thuyết [GNF](lt_content:dangchuan_greibach)
+    
+    - [Tính chất của ngôn ngữ phi ngữ cảnh](lt_content:tinhchat_phi_ngucanh) là gì 
+    - [tinh chat cua ngon ngu phi ngu canh](lt_content:tinhchat_phi_ngucanh) la gi
+    - dinh nghia [tinh chat ngon ngu phi ngu canh](lt_content:tinhchat_phi_ngucanh)
+    - lý thuyết [tính chất ngôn ngữ phi ngữ cảnh](lt_content:tinhchat_phi_ngucanh)
+    
+    - [Ôtômát đẩy xuống](lt_content:otomat_dayxuong) là gì 
+    - [PDA](lt_content:otomat_dayxuong) la gi
+    - dinh nghia [pda](lt_content:otomat_dayxuong)
+    - lý thuyết [otomat đẩy xuống](lt_content:otomat_dayxuong)
+    - định nghĩa [automat đẩy xuống](lt_content:otomat_dayxuong)
+    
+    - [Hình thái pda](lt_content:hinh_thai_pda) là gì 
+    - [hinh thai PDA](lt_content:hinh_thai_pda) la gi
+    - dinh nghia [hinh thai pda](lt_content:hinh_thai_pda)
+    - lý thuyết [hình thái PDA](lt_content:hinh_thai_pda)
+    
+    - [Ngôn ngữ được chấp nhận bởi PDA](lt_content:ngon_ngu_pda) là gì 
+    - [ngon ngu duoc chap nhan boi pda](lt_content:ngon_ngu_pda) la gi
+    - định nghĩa về [ngôn ngữ chấp nhận pda](lt_content:ngon_ngu_pda)
+    - lý thuyết [ngon ngu chap nhan pda](lt_content:ngon_ngu_pda)
+    
+    - [Máy turing](lt_content:turing) là gì 
+    - [Turing](lt_content:turing) la gi
+    - dinh nghia [may turing](lt_content:turing)
+    - lý thuyết [turing](lt_content:turing)
+    
+    - [Mô hình máy turing](lt_content:mo_hinh_turing) là gì 
+    - [mo hinh turing](lt_content:mo_hinh_turing) la gi
+    - dinh nghia [mo hinh may turing](lt_content:mo_hinh_turing)
+    - lý thuyết [mô hình turing](lt_content:mo_hinh_turing)
+    
+    - [Hình thức turing](lt_content:hinhthuc_turing) là gì 
+    - [hinh thuc turing](lt_content:hinhthuc_turing) la gi
+    - định nghĩa [hình thức máy turing](lt_content:hinhthuc_turing)
+    - ly thuyết [hinh thuc may turing](lt_content:hinhthuc_turing)
+    
+    - [ngôn ngữ đệ qui liệt kê](lt_content:ngon_ngu_turing) là gì 
+    - [ngon ngu de qui liet ke kê](lt_content:ngon_ngu_turing) la gi
+    - dinh nghia [ngon ngu de quy liet ke](lt_content:ngon_ngu_turing)
+    - lý thuyết [ngôn ngữ đệ quy liệt kê](lt_content:ngon_ngu_turing)
+    
+    - [lớp ngôn ngữ đệ qui](lt_content:ngonngu_dequy) là gì 
+    - [lop ngon ngu de quy](lt_content:ngonngu_dequy) la gi
+    - dinh nghia [lop ngon ngu de qui](lt_content:ngonngu_dequy)
+    - lý thuyết [lớp ngôn ngữ đệ quy](lt_content:ngonngu_dequy)
+    
+    - [máy turing với băng vô hạn hai chiều](lt_content:turing_2chieu) là gì 
+    - [may turing voi bang vo han hai chieu](lt_content:turing_2chieu) la gi
+    - dinh nghia [turing bang vo han bai chieu](lt_content:turing_2chieu)
+    - lý thuyết [máy Turing băng vô hạn hai chiều](lt_content:turing_2chieu)
+    
+    - [Máy Turing không đơn định](lt_content:turing_khong_dondinh) là gì 
+    - [turing khong don dinh](lt_content:turing_khong_dondinh) la gi
+    - dinh nghia [may turing khong don dinh](lt_content:turing_khong_dondinh)
+    - lý thuyết [máy Turing không đơn định](lt_content:turing_khong_dondinh) 
+    
+    - [Máy Turing nhiều chiều](lt_content:turing_nhieuchieu) là gì 
+    - [turing nhieu chieu](lt_content:turing_nhieuchieu) la gi
+    - dinh nghia [may turing nhieu chieu](lt_content:turing_nhieuchieu)
+    - lý thuyết [máy Turing nhiều chiều](lt_content:turing_nhieuchieu)
+
+    - [Máy Turing nhiều đầu đọc](lt_content:turing_nhieudaudoc) là gì 
+    - [turing nhieu dau doc](lt_content:turing_nhieudaudoc) la gi
+    - dinh nghia [may turing nhieu dau doc](lt_content:turing_nhieudaudoc)
+    - lý thuyết [Máy Turing nhiều đầu đọc](lt_content:turing_nhieudaudoc)
+    
+    - [Luận đề Church](lt_content:church) là gì 
+    - [Church](lt_content:church) la gi
+    - dinh nghia [luan de church](lt_content:church)
+    - lý thuyết [luận đề Church](lt_content:church)
+    
+    - [automat tuyến tính giới nội](lt_content:lba) là gì 
+    - [Ôtômát tuyến tính giới nội](lt_content:lba) là gì
+    - dinh nghia [otomat tuyen tinh gioi noi](lt_content:lba)
+    - lý thuyết [ôtômát tuyến tính giới nội](lt_content:lba)
+    
+    - [Hình thức lba](lt_content:hinhthuc_lba) là gì 
+    - [hinh thuc lba](lt_content:hinhthuc_lba) la gi
+    - định nghĩa [hình thức ôtômát tuyến tính giới nội](lt_content:hinhthuc_lba)
+    - ly thuyet [hinh thuc otomat tuyen tinh gioi noi](lt_content:hinhthuc_lba)
+    
+    - [Văn phạm cảm ngữ cảnh](lt_content:vp_cam_ngucanh) là gì 
+    - [Van pham cam ngu canh](lt_content:vp_cam_ngucanh) la gi
+    - dinh nghia [van pham cam ngu canh](lt_content:vp_cam_ngucanh)
+    - lý thuyết [văn phạm cảm ngữ cảnh](lt_content:vp_cam_ngucanh)
 - intent: vd_asking
   examples: |
     - cho ví dụ về [dfa](vd_content:dfa) 
@@ -476,9 +582,20 @@ nlu:
     - ví dụ về [văn phạm loại ba](vd_content:vp_loai3)
     - thí dụ về [van pham loai ba](vd_content:vp_loai3)
     
-    - thí dụ [văn phạm tuyến tính trái](vd_content:vd_tt_trai)  
-    - ví dụ [văn phạm tuyến tính trái](vd_content:vd_tt_trai)
+    - [ví dụ văn phạm tuyến tính trái](vd_content:vd_tt_trai)  
+    - [thí dụ văn phạm tuyến tính trái](vd_content:vd_tt_trai)
+    - [ví dụ về văn phạm tuyến tính trái](vd_content:vd_tt_trai)
+    - [vi du ve van pham tuyen tinh trai](vd_content:vd_tt_trai)
+    - [thi du ve van pham tuyen tinh trai](vd_content:vd_tt_trai)
     
-    - ví dụ [văn phạm tuyết tính phải](vd_content:vd_tt_phai)
+    - [ví dụ văn phạm tuyến tính phải](vd_content:vd_tt_phai)
+    - [thí dụ văn phạm tuyến tính phải](vd_content:vd_tt_phai)
+    - [ví dụ về văn phạm tuyến tính phải](vd_content:vd_tt_phai)
+    - [vi du ve van pham tuyen tinh phai](vd_content:vd_tt_phai)
+    - [thi du ve van pham tuyen tinh phai](vd_content:vd_tt_phai)
     
-    - thí dụ về [văn phạm phi ngữ cảnh](vd_content:vd_phi_ngucanh)
+    - [ví dụ văn phạm phi ngữ cảnh](vd_content:vd_phi_ngucanh)  
+    - [thí dụ văn phạm phi ngữ cảnh](vd_content:vd_phi_ngucanh)
+    - [ví dụ về văn phạm phi ngữ cảnh](vd_content:vd_phi_ngucanh)
+    - [vi du ve van pham phi ngu canh](vd_content:vd_phi_ngucanh)
+    - [thi du ve van pham phi ngu canh](vd_content:vd_phi_ngucanh)
