@@ -40,25 +40,25 @@ responses:
   - text: "Tôi là Z, là một chatbot trợ giảng môn Tin Học Lý Thuyết"
 
   utter_chucnang:
-  - text: "Tôi có thể trả lời các câu hỏi lý thuyết, cung cấp thông tin, hỗ trợ giải một số bài thực hành liên quan đến môn học."
+  - text: "Tôi có thể trả lời các câu hỏi lý thuyết, cung cấp thông tin liên quan đến môn học."
 
   utter_gioithieu:
   - text: "- Môn Tin học lý thuyết bao gồm việc nghiên cứu hai lý thuyết cơ sở trong lĩnh vực khoa học máy tính - đó là lý thuyết về ngôn ngữ hình thức và lý thuyết về ôtômát.
-           _- Mã số học phần: CT121. 
-           _- Số tín chỉ học phần: 3 tín chỉ. 
-           _- Số tiết học phần: 30 tiết lý thuyết, 30 tiết thực hành và 75 tiết tự học.
-           _- Điều kiện tiên quyết : CT101- Lập trình căn bản."
+           \ \n- Mã số học phần: CT121.  
+           \ \n- Số tín chỉ học phần: 3 tín chỉ. 
+           \ \n- Số tiết học phần: 30 tiết lý thuyết, 30 tiết thực hành và 75 tiết tự học.
+           \ \n- Điều kiện tiên quyết : CT101- Lập trình căn bản."
 
   utter_muctieu:
   - text: "- Cung cấp kiến thức về: automata hữu hạn, nhận biết ngôn ngữ chính quy bởi các automata hữu hạn; ngôn ngữ phi ngữ cảnh, pushdown automata và nhận biết ngôn ngữ phi ngữ cảnh bởi các pushdown automata, máy Turing, kiến trúc máy tính Von Neumann, khả năng tính toán của máy tính dựa trên các mô hình này.
-           _- Khả năng phân tích, kỹ năng lập trình và vận dụng kỹ thuật phù hợp để giải quyết các vấn đề liên quan đến ngôn ngữ.
-           _- Kiến thức đạt được : 
-              _+ Phân loại được automata hữu hạn và nhận biết ngôn ngữ chính quy bởi các automata hữu hạn.
-              _+ Trình bày được ngôn ngữ phi ngữ cảnh, pushdown automata và nhận biết ngôn ngữ phi ngữ cảnh bởi các pushdown automata. 
-              _+ Hiểu máy Turing, kiến trúc máy tính Von Neumann, khả năng tính toán của máy tính dựa trên các mô hình này.
-              _+ Vận dụng kiến thức về automata, biểu thức chính quy, văn phạm chính quy, PDA, TM để cài đặt và giải quyết các bài toán thực tế. "
+           \ \n- Khả năng phân tích, kỹ năng lập trình và vận dụng kỹ thuật phù hợp để giải quyết các vấn đề liên quan đến ngôn ngữ.
+           \ \n- Kiến thức đạt được : 
+              \ \n+ Phân loại được automata hữu hạn và nhận biết ngôn ngữ chính quy bởi các automata hữu hạn.
+              \ \n+ Trình bày được ngôn ngữ phi ngữ cảnh, pushdown automata và nhận biết ngôn ngữ phi ngữ cảnh bởi các pushdown automata. 
+              \ \n+ Hiểu máy Turing, kiến trúc máy tính Von Neumann, khả năng tính toán của máy tính dựa trên các mô hình này.
+              \ \n+ Vận dụng kiến thức về automata, biểu thức chính quy, văn phạm chính quy, PDA, TM để cài đặt và giải quyết các bài toán thực tế."
   utter_cam_on:
-  - text: "Không có chi! Tôi chỉ đang làm việc của tôi."
+  - text: "Cảm ơn bạn, rất vui khi được giúp bạn."
 
 actions:
   - utter_chaohoi
